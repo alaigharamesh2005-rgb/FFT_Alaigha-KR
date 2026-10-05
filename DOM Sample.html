@@ -1,0 +1,53 @@
+<html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="head">"Head" DOM</h1> -->
+    <!-- <button onclick="Btn()"> Change</button> -->
+     
+     <form>
+        <h1>Login Form</h1>
+        <label> Username: </label>
+        <input type="text" name="uname" id="v1"><br></br>
+        <label> Password: </label>
+        <input type="password" name="upwd" id="v2"><br><br>
+        <button onclick="login()" type="button">Login</button>
+        <p id="result"></p>
+     </form>
+    <script>
+        function login(){
+            let uname=document.getElementById('v1').value;
+            let upwd=document.getElementById('v2').value;
+            if(uname=="Alaigha" && upwd==="225500"){
+                 document.getElementById('result').innerHTML="Login Successful!!";
+                 result.style.color="green";
+    
+            }else{
+                document.getElementById('result').innerHTML="Login Failed!";
+                result.style.color="red";
+
+            }
+
+
+        };
+        // let a=10;
+        // let b=20;
+        // docoument.write(a+b);
+        //function
+        function Btn(){
+            // alert("Hello");
+            document.getElementById('head').innerHTML="Hello Alaigha!!";//
+        }
+        
+    </script>
+</body>
+</html>
+
+
+
+
+0

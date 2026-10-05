@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Filters</title>
+
+<style>
+img{
+    width:250px;
+    height:250px;
+    margin:10px;
+}
+
+.invert{
+    filter: invert(100%);
+}
+
+.opacity{
+    filter: opacity(50%);
+}
+
+.saturate{
+    filter: saturate(250%);
+}
+
+.shadow{
+    filter: drop-shadow(5px 5px 8px red);
+}
+
+.brightness{
+    filter: brightness(150%);
+}
+
+.blur{
+    filter: blur(4px);
+}
+</style>
+</head>
+
+<body>
+
+<h2>CSS Filter Examples</h2>
+
+<h3>Invert</h3>
+<img src="Web-Design.jpg" class="invert">
+
+<h3>Opacity</h3>
+<img src="Web-Design.jpg" class="opacity">
+
+<h3>Saturate</h3>
+<img src="Web-Design.jpg" class="saturate">
+
+<h3>Drop Shadow</h3>
+<img src="Web-Design.jpg" class="shadow">
+
+<h3>Brightness</h3>
+<img src="Web-Design.jpg" class="brightness">
+
+<h3>Blur</h3>
+<img src="Web-Design.jpg" class="blur">
+
+</body>
+</html>

@@ -1,0 +1,229 @@
+<html>
+
+<head>
+
+    <title>Transitions and Animations</title>
+
+    <style>
+        button {
+
+            margin-left: 130px;
+            width: 150px;
+            height: 50px;
+            background-color: rgb(227, 209, 187);
+            border: none;
+            border-radius: 50px;
+            transition: 1s;
+        }
+
+        button:hover {
+
+            background-color: rgb(220, 125, 10);
+            transform: scale(1.1);
+        }
+
+
+        .b1 {
+            margin-left: 19px
+            50px;
+            width: 150px;
+            height: 50px;
+            background-color: rgb(196, 227, 70);
+            border: none;
+            border-radius: 80px;
+            transition: 1s;
+
+
+        }
+
+        .b1:hover {
+
+            background-color: rgb(48, 220, 97);
+            transform: scale(1.1);
+        }
+
+        .b2 {
+
+            margin-left: 30px;
+            width: 150px;
+            height: 50px;
+            background-color: rgb(211, 182, 52);
+            border: none;
+            border-radius: 80px;
+            transition: 1s;
+
+        }
+
+        .b2:hover {
+
+            background-color: rgb(221, 129, 217);
+            transform: scale(1.1);
+        }
+
+        .b3 {
+
+            margin-left: 180px;
+            width: 150px;
+            height: 50px;
+            background-color: rgb(77, 237, 189);
+            border: none;
+            border-radius: 70px;
+            transition: 1s;
+        }
+
+        .b3:hover {
+
+            background-color: bisque;
+            transform: scale();
+        }
+
+        .box {
+
+            width: 100px;
+            height: 100px;
+            background-color: rgb(235, 106, 106);
+            animation: Alaigha 0.5s ease alternate infinite;
+
+        }
+
+        .box2 {
+            margin-left: 130px;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(192, 137, 173);
+            border-radius: 100%;
+            animation: hello 2s ease-out 1s alternate infinite;
+        }
+
+        .box3 {
+            display: flex;
+            width: 100px;
+            margin-left: 50px;
+            height: 100px;
+            background-color: rgb(119, 149, 78);
+            border-radius: 1%;
+            animation: hi 0.5s ease-in-out 2s alternate infinite;
+
+
+        }
+
+        .box4 {
+
+            display: flex;
+            width: 100px;
+            margin-left: 50px;
+            height: 200px;
+            background-color: rgb(103, 184, 151);
+            border-radius: 2%;
+            animation: bye 2s ease-in 2s alternate infinite;
+
+
+        }
+
+        .load {
+
+            margin-bottom: 10px;
+            width: 150px;
+            height: 150px;
+            border: 5px solid rgb(36, 127, 183);
+            border-radius: 50%;
+            border-top: solid rgb(86, 225, 116);
+            animation: spin 1s linear infinite;
+        }
+        .load1{
+
+            margin-bottom: 80px;
+            width: 150px;
+            height: 150px;
+            border: 10px solid rgb(177, 225, 58);
+            border-radius: 1%;
+            border-top: solid rgb(68, 48, 4);
+            animation: spin1 1s linear infinite;
+        }
+        @keyframes spin1 {
+
+            to{
+
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes bye {
+
+            to{
+
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes hi {
+
+            to {
+
+                transform: rotate(90deg);
+            }
+
+
+
+        }
+
+        @keyframes hello {
+
+            to {
+
+                transform: scale(0);
+            }
+        }
+
+
+        @keyframes Alaigha {
+
+            to {
+
+                transform: scale(0);
+            }
+
+            from {
+
+                transform: scale(300px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Transitions & Animations</h1>
+    <button class="b1">Action</button>
+    <button class="b2">Action</button>
+    <button class="b3">Action</button>
+    <button class="b4">Action</button>
+    <br><br>
+    <br><br>
+
+    <ul>
+        <div class="box"></div><br>
+        
+        <br>
+        <div class="box2"></div>
+        <br><br><br><br><br>
+        <div class="box3"></div>
+        <br><br><br><br><br>
+        <div class="box4"></div>
+        <br><br><br>
+
+    </ul>..
+    <br><br>
+    <div class="load"></div>
+    <br><br>
+    <div class="load1"></div>
+
+</body>
+
+</html>

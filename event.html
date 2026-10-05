@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            font-family: Arial, sans-serif
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: space-around;
+            max-width: 1000px;
+            margin: auto;
+            padding: 15px 20px;
+            list-style: none;
+        }
+
+        .top{
+
+            text-align: center;
+            margin: auto;
+            padding: 15px 20px;
+        }
+        
+
+        h1 {
+
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 2px 3px 10px rgb(0, 0, 0);
+
+        }
+
+        header {
+
+            background: rgb(127, 200, 227);
+        }
+
+
+        .section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        .section h2 {
+            text-align: center;
+            font-size: 32px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-bottom: 35px;
+            color: #000000;
+        }
+
+        
+        .d1 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .d2 {
+            background-color: rgb(127, 188, 226);
+            padding: 25px;
+            text-align: center;
+            border-radius: 90px;
+            box-shadow: 0 3px 10px rgba(24, 140, 98, 0.1);
+        }
+
+        .d2 h3 {
+            margin-bottom: 20px;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color:wheat;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            border: 1px solid #0e0d0d;
+            text-align: center;
+        }
+
+
+        .speaker {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .s1 {
+            background-color: rgb(230, 193, 193);
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .S image {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            border-radius: 50%;
+            background-color: #e0e7ff;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+       
+
+      
+        
+        
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border: 1px solid #100f0f;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+      
+
+        button {
+            width: 50%;
+            padding: 13px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color:skyblue;
+            color:black;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 250px;
+        }
+
+        button:hover {
+            background-color: #91d662;
+        }
+
+       
+
+        .contact {
+            background-color:skyblue;
+            color:black;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .contact h2 {
+            margin-bottom: 10px;
+        }
+        
+        form {
+                padding: 15px;
+            }
+
+       
+
+        footer {
+            background-color: rgb(99, 201, 241);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+     
+
+         @media (max-width: 900px) {  
+
+            .topmenu {
+                flex-direction: column;
+                gap: 15px;
+                 flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            
+                
+            
+
+            .d1 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+           
+
+            .s1 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            
+        }
+
+        
+
+        @media (max-width: 600px) {
+
+            .topmenu {
+                padding: 15px 10px;
+                flex-direction: column;
+                text-align: center;
+                gap: 8px;
+            }
+
+            
+                
+        
+
+            
+
+          
+            .d1
+            .s1 {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 40px 15px;
+            }
+
+            .section h2 {
+                font-size: 26px;
+            }
+
+           
+
+            form {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+
+        <h1>Arts & Creativitiy</h1>
+        <nav class="header">
+            <li><a href="#home-link">Home</a></li>
+            <li><a href="#details-link">Details</a></li>
+            <li><a href="#Schedule-link">Schedule</a></li>
+            <li><a href="#speakers-link">Speakers</a></li>
+            <li><a href="#register-link">Register</a></li>
+            <li><a href="#contact-link">Contact</a></li>
+
+        </nav>
+    </header>
+</body>
+
+<br><br><br><br><br>
+
+
+
+
+<!-- HOME -->
+
+
+<section class="top" id="home">
+
+
+
+    <div>
+
+        <h1>Arts</h1><br>
+
+        <p>Dustout talent</p><br>
+
+        <p>At clollege ground</p>
+
+    </div>
+
+
+<!-- DETAILS -->
+</section>
+
+<section id="details" class="section">
+
+    <h2>Details</h2>
+
+    <div class="d1">
+
+        <div class="d2">
+            <h3>Date</h3>
+            <p>2 NOvember 2026</p>
+        </div>
+
+        <div class="d2">
+            <h3>Time</h3>
+            <p>1:30 p.m - 5:00 p.m</p>
+        </div>
+
+        <div class="d2">
+            <h3>Venue</h3>
+            <p>College Main Ground</p>
+        </div>
+
+        <div class="d2">
+            <h3> Organized By</h3>
+
+            <p>Department of Arts</p>
+        </div>
+    </div>
+</section>
+
+<!-- Schedule -->
+
+
+<section id="schedule" class="section">
+    <h2>Event Schedule</h2>
+
+    <div class="t1">
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Venue</th>
+            </tr>
+
+            <tr>
+                <td>1:30 p.m</td>
+                <td>Inauguration</td>
+                <td>College Main Ground</td>
+            </tr>
+
+            <tr>
+                <td>2:00.p.m</td>
+                <td>Torch lighting ceremony</td>
+                <td>College Main Ground</td>
+            </tr>
+            
+
+            <tr>
+                <td>01:00 PM</td>
+                <td>Break</td>
+                <td>Food Court</td>
+            </tr>
+
+        </table>
+    </div>
+</section>
+
+<section id="speakers" class="section">
+    <h2>Our Speakers</h2>
+
+    <div class="speaker">
+
+        <div class="s1">
+            <div class="speaker-img"></div>
+            <h3>Dr.Vijaya</h3>
+            <p>Hod. Arts department</p>
+        </div>
+
+        <div class="s1">
+            <div class="speaker-img"></div>
+            <h3>Dr. KP Latha</h3>
+            <p>HOD of Arts department</p>
+        </div>
+
+
+    </div>
+</section>
+
+<section id="register" class="section reg">
+    <h2>Register for the Sports Meet</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="number" placeholder="Enter your phone number" required>
+
+        <label>Department</label>
+        <input type="text" placeholder="Enter your department" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+    <p>Email: arts@college.au.edu.in</p>
+    <p>Phone: +91 9458254005</p>
+    <p>Alliance Main Campus,Anekal rd, Bengaluru</p>
+</section>
+
+
+<!-- Footer -->
+
+
+<footer>
+
+    <p>© 2026 College Atrs. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+
+
+</html>

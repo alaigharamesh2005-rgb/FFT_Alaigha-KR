@@ -1,0 +1,126 @@
+<html>
+<head>
+    <title>Facebook Login</title>
+
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        form {
+            width: 400px;
+            margin: 80px auto;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(24, 119, 242);
+            font-size: 48px;
+            margin-bottom: 40px;
+        }
+
+        input {
+            width: 390px;
+            height: 52px;
+            margin-bottom: 15px;
+            background-color: rgb(248, 249, 250);
+            border: 1px solid rgb(200, 210, 220);
+            border-radius: 10px;
+            color: black;
+            padding-left: 15px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input:focus {
+            outline: none;
+            border: 1px solid rgb(24, 119, 242);
+        }
+
+        input::placeholder {
+            color: rgb(120, 130, 140);
+        }
+
+        #i1 {
+            width: 390px;
+            height: 52px;
+            background-color: rgb(24, 119, 242);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #i1:hover {
+            background-color: rgb(15, 95, 200);
+        }
+
+        #i2 {
+            margin-top: 20px;
+            background-color: transparent;
+            border: none;
+            color: rgb(24, 119, 242);
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #i2:hover {
+            text-decoration: underline;
+        }
+
+        #i3 {
+            width: 390px;
+            height: 52px;
+            margin-top: 35px;
+            background-color: white;
+            border: 2px solid rgb(24, 119, 242);
+            color: rgb(24, 119, 242);
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #i3:hover {
+            background-color: rgb(24, 119, 242);
+            color: white;
+        }
+
+        p {
+            color: rgb(100, 100, 100);
+            font-size: 16px;
+            margin-top: 25px; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <h1>Facebook</h1>
+
+        <input type="text" 
+               placeholder="Mobile number or email address" 
+               required>
+
+        <input type="password" 
+               placeholder="Password" 
+               required>
+
+        <button id="i1">Log In</button>
+
+        <button id="i2">Forgotten Password?</button>
+
+        <button id="i3">Create new account</button>
+
+        <p>Meta</p>
+
+    </form>
+
+</body>
+</html>
